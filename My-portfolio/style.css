@@ -1,0 +1,82 @@
+body{
+    background-image:url('imgs/bgg.jpg');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+
+#section_A{
+    background-image:url('imgs/AI.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+}
+#card{
+float: left;
+margin: 15%;
+opacity: 0.5;
+}
+#icons{
+    display:inline-block;
+}
+h4{
+   text-align: center; 
+  padding: 2%; 
+}
+.page-section{
+    padding-bottom: 10%;
+}
+#about{
+     padding-bottom: 5%;
+}
+.col{
+  position: relative;
+  width: 50%;
+  max-width: 300px;
+  height: auto;
+}
+.col:hover .project_title{
+  opacity: 1;
+}
+.project_title{
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 175px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.img {
+   height: 175px;
+   width: 175px;
+   padding-top: 6%;
+   padding-bottom: 6%;
+   display: block;
+}
+h4{
+text-align: center; 
+  padding: 2%; 
+  color: whitesmoke;
+}
+#projects{
+    padding-bottom: 5%;
+}
+form{
+    opacity: 0.5;
+    padding-bottom: 5%;
+    margin: 50px;
+}
+#footer{
+ opacity: 0.5;
+ 
+}
